@@ -67,7 +67,7 @@ class PyTest(TestCommand):
 
 
 setup(
-    name=find_meta("title"),
+    name='pyopenssl',
     version=find_meta("version"),
     description=find_meta("summary"),
     long_description=read_file("README.rst"),
